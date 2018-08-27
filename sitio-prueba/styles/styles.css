@@ -1,0 +1,17 @@
+
+
+html {
+  font-size: 10px; /* px quiere decir 'pixels': la base del tamaño de fuente es ahora de 1o pixeles*/
+  font-family: 'Metamorphous', cursive; Este debe ser el resto del resultado que obtuviste de Google fonts
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
