@@ -15,11 +15,11 @@ miImage.onclick = function () {
 //}
 var miBoton = document.querySelector('button');
 var miTitulo = document.querySelector( 'h1');
-alert("hola");
+//alert("hola");
 function estableceNombreUsuario() {
     var miNombre = prompt('Por favor, ingresa tu nombre.');
     localStorage.setItem('nombre', miNombre);
-    miTitulo.textContent = 'ncilla es fresco,' + miNombre;
+    miTitulo.textContent = 'Hola ,' + miNombre;
 }
 
 if (!localStorage.getItem('nombre')) {
@@ -27,7 +27,7 @@ if (!localStorage.getItem('nombre')) {
 }
 else {
     var nombreAlmacenado = localStorage.getItem('nombre');
-    miTitulo.textContent = 'Mozilla es fresco,' + nombreAlmacenado;
+    miTitulo.textContent = 'Hola ,' + nombreAlmacenado;
 }
 
 miBoton.onclick = function() {
